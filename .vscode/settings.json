@@ -1,9 +1,10 @@
 {
     "editor.tabSize": 4,
-"editor.renderControlCharacters": true,
-"editor.renderWhitespace": "all",
-"prettier.semi": false, 
-"prettier.singleQuote": true,
-"prettier.trailingComma": "none",
-"prettier.printWidth": 120,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.printWidth": 120,
+    "prettier.eslintIntegration": true
 }
