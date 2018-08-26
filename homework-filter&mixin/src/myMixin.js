@@ -1,7 +1,12 @@
 export const Mymixin = {
+  data() {
+    return {
+      inputText2: ''
+    }
+  },
   computed: {
-    lengthOfText(value) {
-      return `${value} (${value.length})`
+    lengthOfText() {
+      return `${this.inputText2} (${this.inputText2.length})`
     }
   }
 }

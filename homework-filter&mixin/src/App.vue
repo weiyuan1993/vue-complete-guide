@@ -26,13 +26,12 @@
 <script>
 import { Mymixin } from './myMixin'
 export default {
-  mixins: ['Mymixin'],
+  mixins: [Mymixin],
 
   data() {
     return {
       text: 'I am just some text.',
-      inputText: '',
-      inputText2: ''
+      inputText: ''
     }
   },
   filters: {
