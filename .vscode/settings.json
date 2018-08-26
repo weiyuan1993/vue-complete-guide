@@ -1,4 +1,5 @@
 {
+  "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
@@ -6,5 +7,6 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
   "prettier.printWidth": 120,
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html"
 }
